@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(5, 1, 32);
+    overflow: hidden;
+}
+
+.fa-snowflake{
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    animation: snow linear forwards;
+}
+
+@keyframes snow {
+    to{
+        transform: translateY(105vh);
+    }
+}
